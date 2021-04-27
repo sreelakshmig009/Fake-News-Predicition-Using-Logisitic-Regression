@@ -40,9 +40,7 @@ accuracy_score tells how much accurate is the news
 Learn about PorterStemmer here: https://www.tutorialspoint.com/python_data_science/python_stemming_and_lemmatization.htm
 
 
-TfidVectorizer : tf- Term Frequency
-                 
-                 idf-  Inverse document frequency
+TfidVectorizer : tf- Term Frequency,idf-  Inverse document frequency
 
 Stratify in train_test_split : used to segregate data into equal proportions the same way it was in the original pre-trained dataset
 
