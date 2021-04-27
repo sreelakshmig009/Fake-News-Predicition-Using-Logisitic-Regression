@@ -3,9 +3,9 @@
 
 Check out this awesome youtube channel to learn Machine learning : https://www.youtube.com/channel/UCG04dVOTmbRYPY1wvshBVDQ
 
-1.Logistic regression model
+ 1.Logistic regression model
 
-2.Binary model:fake news,real news(for binary models,logistic regression gives the most accurate ouput)
+ 2.Binary model:fake news,real news(for binary models,logistic regression gives the most accurate ouput)
 
 Work Flow
 
@@ -49,10 +49,17 @@ Stratify in train_test_split : used to segregate data into equal proportions the
 
 Math behind Logisitic Regression: 
                                             Sigmoid function
+                                            
                                             y = 1/1+e^(-z) 
-                                             z = w.X + b - straight line equation
+                                            
+                                            z = w.X + b - straight line equation
+                    
                     where,
+                                   
                                    X = input features 
+                                   
                                    Y = prediction probability(b/w 0 and 1)
+                                   
                                    w = weights(how important a particular feature/column is)
+                                   
                                    b = biases
